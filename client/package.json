@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "private": true,
   "dependencies": {
+    "framer-motion": "^10.16.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "socket.io-client": "^4.7.2",
-    "framer-motion": "^10.16.4"
+    "socket.io-client": "^4.7.2"
   },
   "scripts": {
     "dev": "vite",
@@ -14,6 +14,7 @@
     "serve": "vite preview"
   },
   "devDependencies": {
+    "@vitejs/plugin-react": "^5.0.1",
     "vite": "^4.5.0"
   }
 }
